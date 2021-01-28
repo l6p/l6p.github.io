@@ -1,6 +1,6 @@
 # Getting JSON Data
 
-In the following example, a simple test case **SimpleCase** is defined and exported to the test framework via the **Export** function.
+In the following example, a simple test case `SimpleCase` is defined and exported to the test framework via the `Export` function.
 
 ```go
 package main
@@ -24,8 +24,8 @@ func Export() map[string]interface{} {
 }
 ```
 
-In the above example, the SimpleCase parameters **client** and **logger** are automatically injected by the test framework at runtime.
-Call ```client.R().Get(...)``` to make a GET request, and the returned JSON data is:
+In the above example, the `SimpleCase` parameters `client` and `logger` are automatically injected by the test framework at runtime.
+Call `client.R().Get(...)` to make a GET request, and the returned JSON data is:
 
 ```json
 {
@@ -36,26 +36,16 @@ Call ```client.R().Get(...)``` to make a GET request, and the returned JSON data
 }
 ```
 
-You can use **resp.D()** to extract the content of JSON data in the test cae, for example, **GetInt(...)** for integers, **GetString(...)** for strings.
-The parameter of a function like **GetInt** or **GetString** is a path to the value's key. 
+You can use `resp.D()` to extract the content of JSON data in the test cae, for example, `GetInt(...)` for integers, `GetString(...)` for strings.
+The parameter of a function like `GetInt` or `GetString` is a path to the value's key. 
 See [here]() for details on how to write the path.
 
-```note
-### This is a note
-
-Markdown is supported, Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines
-
-`inline code`
-
-[`inline code inside link`](#)
+```tip
+`logger.Print(...)` is used to write custom messages in the log, unlike direct printing, `logger.Print(...)` will output the log information asynchronously as JSON format to improve performance.
 ```
 
 ```tip
-logger.Print(...) is used to write custom messages in the log, unlike direct printing, logger.Print(...) will output the log information asynchronously as JSON format to improve performance.
-```
-
-```tip
-time.Sleep(...) is used to reduce the frequency of test case execution and does not need to be added when actually performing performance tests.
+`time.Sleep(...)` is used to reduce the frequency of test case execution and does not need to be added when actually performing performance tests.
 ```
 
 ## Reference
