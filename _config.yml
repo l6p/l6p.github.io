@@ -2,14 +2,14 @@ title: Lollipop
 
 email: l6p.io@hotmail.com
 
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   Lollipop is cloud native performance testing tool built for making performance testing
   a productive and enjoyable experience. Using Lollipop, you'll be able to catch performance
   regression and problems earlier, allowing you to build resilient systems and robust applications.
 
-baseurl: ""
-
 url: "https://l6p.io"
+
+baseurl: ""
 
 remote_theme: rundocs/jekyll-rtd-theme
 

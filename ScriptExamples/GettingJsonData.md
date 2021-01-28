@@ -1,0 +1,63 @@
+# Getting JSON Data
+
+In the following example, a simple test case **SimpleCase** is defined and exported to the test framework via the **Export** function.
+
+```go
+package main
+
+import (
+	"github.com/l6p/utils/client/json"
+	"time"
+)
+
+func SimpleCase(client *json.Client, logger *log.Logger) {
+	resp := client.R().Get("https://jsonplaceholder.typicode.com/todos/1")
+	logger.Print("id: ", resp.D().GetInt("id"))
+	logger.Print("title: ", resp.D().GetString("title"))
+	time.Sleep(5 * time.Second)
+}
+
+func Export() map[string]interface{} {
+	return map[string]interface{}{
+		"SimpleCase": SimpleCase,
+	}
+}
+```
+
+In the above example, the SimpleCase parameters **client** and **logger** are automatically injected by the test framework at runtime.
+Call ```client.R().Get(...)``` to make a GET request, and the returned JSON data is:
+
+```json
+{
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+}
+```
+
+You can use **resp.D()** to extract the content of JSON data in the test cae, for example, **GetInt(...)** for integers, **GetString(...)** for strings.
+The parameter of a function like **GetInt** or **GetString** is a path to the value's key. 
+See [here]() for details on how to write the path.
+
+```note
+### This is a note
+
+Markdown is supported, Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines
+
+`inline code`
+
+[`inline code inside link`](#)
+```
+
+```tip
+logger.Print(...) is used to write custom messages in the log, unlike direct printing, logger.Print(...) will output the log information asynchronously as JSON format to improve performance.
+```
+
+```tip
+time.Sleep(...) is used to reduce the frequency of test case execution and does not need to be added when actually performing performance tests.
+```
+
+## Reference
+
+Click [here](){:target="_blank"} for the source code of this example.
