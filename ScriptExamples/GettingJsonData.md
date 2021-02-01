@@ -1,3 +1,7 @@
+---
+sort: 1
+---
+
 # Getting JSON Data
 
 In the following example, a simple test case `SimpleCase` is defined and exported to the test framework via the `Export` function.
