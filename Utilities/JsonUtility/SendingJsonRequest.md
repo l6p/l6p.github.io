@@ -4,7 +4,7 @@ sort: 1
 
 # Sending JSON Request
 
-Add a dependency on "github.com/l6p/utils" for the script, and add a "*json.Client" type input to the test case function, 
+Add a dependency on `github.com/l6p/utils` for the script, and add a `*json.Client` type input to the test case function, 
 then the test framework will automatically inject the JSON client for the test case to use.
 
 `json.Client` encapsulates [Go Resty](), making the operation of handling JSON data more convenient.
@@ -35,4 +35,4 @@ client.R().J(`
 `).Post("https://jsonplaceholder.typicode.com/posts")
 ```
 
-If you already have `json.Data` then you can use `D(...)` of `json.Request ` instead of `J(...) ` to set the data to be posted.
+If you already have `json.Data` then you can use `D(...)` of `json.Request` instead of `J(...)` to set the data to be posted.
