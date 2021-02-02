@@ -17,7 +17,7 @@ you can directly request a JSON API and use the `D()` to get the data you need i
 The type of `D()` is `json.Data`, which provides some methods to easily handle JSON data:
 - [Reading data by path]()
 - [Filtering elements in an array]()
-- [Adding or deleting data]()
+- [Modifying data]()
 - [Merging JSON data]()
 
 ## Posting JSON Data
