@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# Filtering Elements In An Array
+# Filtering Elements In Array
 
 Based on the following JSON data:
 

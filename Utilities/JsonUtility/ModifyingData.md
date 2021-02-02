@@ -38,7 +38,7 @@ The JSON value will change to:
 }
 ```
 
-## Appending Value To An Array
+## Appending Value To Array
 
 Further, execute the following code:
 

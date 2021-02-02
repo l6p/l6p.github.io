@@ -27,7 +27,7 @@ Use `key2.key21` as path to get `value2`:
 d.GetString("key2.key21")
 ```
 
-## Reading Data From An Array
+## Reading Data From Array
 
 Based on the following JSON data:
 
