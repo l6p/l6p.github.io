@@ -7,14 +7,16 @@ sort: 4
 `json.Data` provides the ability to modify its encapsulated JSON data. 
 For example, based on the following JSON data:
 
-```json
-{
-	"key1": "value1",
-	"key2": {
-        "key21": 0
-    },
-	"key3": [10, 20]
-}
+```go
+d:= json.D(`
+    {
+        "key1": "value1",
+        "key2": {
+            "key21": 0
+        },
+        "key3": [10, 20]
+    }
+`)
 ```
 
 ## Setting New Value
