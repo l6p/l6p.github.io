@@ -42,7 +42,7 @@ Call `client.R().Get(...)` to make a GET request, and the returned JSON data is:
 
 You can use `resp.D()` to extract the content of JSON data in the test cae, for example, `GetInt(...)` for integers, `GetString(...)` for strings.
 The parameter of a function like `GetInt` or `GetString` is a path to the value's key. 
-See [here]() for details on how to write the path.
+See [here](/Utilities/JsonUtility/SendingJsonRequest.html) for details on how to write the path.
 
 ```tip
 `logger.Print(...)` is used to write custom messages in the log, unlike direct printing, `logger.Print(...)` will output the log information asynchronously as JSON format to improve performance.
