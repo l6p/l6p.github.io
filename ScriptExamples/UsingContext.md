@@ -1,0 +1,47 @@
+---
+sort: 2
+---
+
+# Using Context
+
+Use Context to exchange data between test cases or use Context to pass the dynamic data needed for testing.
+
+## Declare Context
+
+First declare a structure to hold the data in the context. 
+For example, in the following example, a structure called `Context` is declared, 
+and a field called `BaseUrl` is declared in it to store the base url of the back-end API.
+
+```go
+type Context struct {
+	BaseUrl string
+}
+```
+
+Initialize the `Context` in the `Export` function, and export it to the test framework with the `context` key.
+
+```go
+func Export() map[string]interface{} {
+	return map[string]interface{}{
+		"context": Context{
+			BaseUrl: "https://jsonplaceholder.typicode.com",
+		},
+		"SimpleCase": SimpleCase,
+	}
+}
+```
+
+Using context in a test case simply requires defining a parameter of the `Context` pointer type on the test case:
+
+```go
+func SimpleCase(ctx *Context, client *json.Client) {
+	_ = client.R().Get(fmt.Sprintf("%s/todos/1", ctx.BaseUrl))
+	time.Sleep(5 * time.Second)
+}
+```
+
+In the above example the API base url will be taken from the `Context` instead of being hardcoded in the test case.
+
+## Reference
+
+Click [here](){:target="_blank"} for the source code of this example.

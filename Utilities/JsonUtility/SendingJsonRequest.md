@@ -7,7 +7,7 @@ sort: 1
 Add a dependency on `github.com/l6p/utils` for the script, and add a `*json.Client` type input to the test case function, 
 then the test framework will automatically inject the JSON client for the test case to use.
 
-`json.Client` encapsulates [Go Resty](), making the operation of handling JSON data more convenient.
+`json.Client` encapsulates [Go Resty](https://github.com/go-resty/resty){:target="_blank"}, making the operation of handling JSON data more convenient.
 
 ## Getting A JSON Response
 
