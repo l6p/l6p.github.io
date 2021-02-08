@@ -1,11 +1,11 @@
+# Run Your First Test
+
 <style>
     img[alt=d000002001] { 
         display: block;
         width: 280px; 
     }
 </style>
-
-# Run Your First Test
 
 ## Write Your First Test Case
 
