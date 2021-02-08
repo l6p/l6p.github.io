@@ -1,14 +1,12 @@
 ---
-sort: 1
+sort: 2
 ---
 
 # Getting JSON Data
 
-In the following example, a simple test case `SimpleCase` is defined and exported to the test framework via the `Export` function.
+## Code example
 
 ```go
-package main
-
 import (
 	"github.com/l6p/utils/client/json"
 	"time"
@@ -27,6 +25,8 @@ func Export() map[string]interface{} {
 	}
 }
 ```
+
+## Explanation
 
 In the above example, the `SimpleCase` parameters `client` and `logger` are automatically injected by the test framework at runtime.
 Call `client.R().Get(...)` to make a GET request, and the returned JSON data is:

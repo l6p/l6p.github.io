@@ -1,12 +1,40 @@
 ---
-sort: 2
+sort: 3
 ---
 
 # Using Context
 
-Use Context to exchange data between test cases or use Context to pass the dynamic data needed for testing.
+## Code example
 
-## Declare Context
+```go
+import (
+	"fmt"
+	"github.com/l6p/utils/client/json"
+	"time"
+)
+
+type Context struct {
+	BaseUrl string
+}
+
+func SimpleCase(ctx *Context, client *json.Client) {
+	_ = client.R().Get(fmt.Sprintf("%s/todos/1", ctx.BaseUrl))
+	time.Sleep(5 * time.Second)
+}
+
+func Export() map[string]interface{} {
+	return map[string]interface{}{
+		"context": Context{
+			BaseUrl: "https://jsonplaceholder.typicode.com",
+		},
+		"SimpleCase": SimpleCase,
+	}
+}
+```
+
+## Explanation
+
+Use Context to exchange data between test cases or use Context to pass the dynamic data needed for testing.
 
 First declare a structure to hold the data in the context. 
 For example, in the following example, a structure called `Context` is declared, 
