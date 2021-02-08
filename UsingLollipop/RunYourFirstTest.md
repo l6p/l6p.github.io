@@ -4,25 +4,18 @@ sort: 1
 
 # Run Your First Test
 
-<style>
-    img[alt=d000002001] { 
-        display: block;
-        width: 280px; 
-    }
-</style>
-
 ## Write Your First Test Case
 
-The first step is to create a new directory "**script**", and perform the following actions:
+The first step is to create a new directory `script`, and perform the following actions:
 
-```
+```shell
 mkdir script
 cd script
 go mod init script
 go get github.com/l6p/utils
 ```
 
-Copy the code below, paste it into your favourite editor, and save it as "**main.go**" in this folder:
+Copy the code below, paste it into your favourite editor, and save it as `main.go` in this folder:
 
 ```go
 package main
@@ -48,7 +41,7 @@ func Export() map[string]interface{} {
 
 Compress this folder into a zip file:
 
-```bash
+```shell
 zip -r script.zip ./script
 ```
 
@@ -120,6 +113,12 @@ Click "NEXT" and "RUN"
 
 While the test is running you can slide the mouse over the right side trigger points of the test to slide out the functional buttons.
 
+<style>
+    img[alt=d000002001] { 
+        display: block;
+        width: 280px; 
+    }
+</style>
 ![d000002001](/assets/images/d000002001.png)
 
 Then click the Dashboard button to view the test report.
