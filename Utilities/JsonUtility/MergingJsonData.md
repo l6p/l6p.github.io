@@ -1,8 +1,9 @@
 ---
 sort: 5
+title: Merging JSON Data
 ---
 
-# Merging JSON data
+# Merging JSON Data
 
 For example, there are two sets of JSON data and they are encapsulated in `d1` and `d2` respectively:
 

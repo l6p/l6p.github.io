@@ -1,5 +1,6 @@
 ---
 sort: 2
+title: Reading Data By Path
 ---
 
 # Reading Data By Path

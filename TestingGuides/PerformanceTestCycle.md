@@ -1,7 +1,6 @@
 ---
 sort: 1
-title: A Complete Performance Test Cycle
-sidebar: Performance Test Cycle
+title: Performance Test Cycle
 ---
 
 # An Understanding Of A Complete Performance Test Cycle

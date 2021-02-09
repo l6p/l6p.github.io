@@ -1,5 +1,6 @@
 ---
 sort: 2
+title: Getting JSON Data
 ---
 
 # Getting JSON Data

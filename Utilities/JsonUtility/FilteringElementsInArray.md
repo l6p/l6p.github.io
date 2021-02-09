@@ -1,5 +1,6 @@
 ---
 sort: 3
+title: Filtering Elements In Array
 ---
 
 # Filtering Elements In Array
