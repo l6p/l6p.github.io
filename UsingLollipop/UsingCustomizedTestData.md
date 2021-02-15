@@ -11,7 +11,7 @@ The first step is to define the fields in the **Context** where the data needs t
 You need to tag the custom fields, such as `l6p:"sleepSeconds"`.
 
 ```warning
-Note that **sync** is a reserved value for the tag value and cannot be used to pass data.
+Note that `l6p:"sync"` is reserved and cannot be used to pass data.
 ```
 
 ```go
@@ -55,8 +55,8 @@ func Export() map[string]interface{} {
 }
 ```
 
-In the above example `SleepSeconds` is a custom field defined in the context. 
-When creating a test, the system prompts the user to assign a value to the field, 
+In the above example `SleepSeconds` is a custom field defined in the **Context**. 
+When creating a test, the system prompts the user to assign a value to this field, 
 which currently only supports `int`, `string` and `float`.
 
 <style>
