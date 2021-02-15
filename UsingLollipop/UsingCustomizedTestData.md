@@ -3,13 +3,16 @@ sort: 2
 title: Using Customized Test Data
 ---
 
-# How To Pass Customized Data Into The Test
+# Using Customized Test Data
 
 For more flexibility in running tests, the system allows custom data to be passed into the test script.
 
-The first step is to define the fields in the `Context` where the data needs to be provided dynamically.
-You need to tag the custom fields, such as `l6p:"sleepSeconds"`. 
-Note that **"sync"** is a reserved value for the tag value and cannot be used.
+The first step is to define the fields in the **Context** where the data needs to be provided dynamically.
+You need to tag the custom fields, such as `l6p:"sleepSeconds"`.
+
+```warning
+Note that **sync** is a reserved value for the tag value and cannot be used to pass data.
+```
 
 ```go
 package main
