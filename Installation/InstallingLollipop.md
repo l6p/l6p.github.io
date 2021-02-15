@@ -26,14 +26,14 @@ Open and edit the **values.yaml** file and modify the configuration as required.
 | global.mongodb.pass | MongoDB password | rootpassword |
 | global.kafka.endpoint | Kafka endpoint | kafka.l6p-system.svc.cluster.local:9092 |
 | global.kafka.topic | Kafka topic | l6p.log |
-| server.storageClass | Storage class of backing PVC | hostpath |
-| server.service.port | Port of the API server | 80 |
-| server.ingress.hosts[0].host | Hostname of the API server | local.l6p.io |
-| server.ingress.hosts[0].path | Path within the API url structure | "/api/v1" |
-| web.apiBaseUrl | Base URL of API | "http://local.l6p.io/api/v1" |
-| web.service.port | Port of the Web server | 80 |
-| web.ingress.hosts[0].host | Hostname of the Web server | local.l6p.io |
-| web.ingress.hosts[0].path | Root path of the Web server | "/" |
+| server.storageClass | storage class of backing PVC | hostpath |
+| server.service.port | port of the API server | 80 |
+| server.ingress.hosts[0].host | hostname of the API server | local.l6p.io |
+| server.ingress.hosts[0].path | path within the API url structure | "/api/v1" |
+| web.apiBaseUrl | base URL of API | "http://local.l6p.io/api/v1" |
+| web.service.port | port of the Web server | 80 |
+| web.ingress.hosts[0].host | hostname of the Web server | local.l6p.io |
+| web.ingress.hosts[0].path | root path of the Web server | "/" |
 
 ```warning
 Please change `local.l6p.io` in the configuration to your actual domain name, such as `l6p.mycompany.com`, 

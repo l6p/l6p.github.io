@@ -48,7 +48,7 @@ zip -r script.zip ./script
 
 ## Upload Script
 
-Choose "Script" from the left menu and click "UPLOAD" button and fill in the form:
+Choose **Script** from the left menu and click **UPLOAD** button and fill in the form:
 
 ```text
 | Item    | Value                             |
