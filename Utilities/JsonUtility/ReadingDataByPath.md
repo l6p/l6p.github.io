@@ -8,7 +8,7 @@ title: Reading Data By Path
 The simple path consists of JSON keys and dots. For example, based on the following JSON data:
 
 ```go
-d:= json.D(`
+d := json.D(`
     {
         "key1": "value1",
         "key2": {
@@ -35,7 +35,7 @@ d.GetString("key2.key21")
 Based on the following JSON data:
 
 ```go
-d:= json.D(`
+d := json.D(`
     {
         "key1": [10, 20, 30]
     }

@@ -3,18 +3,19 @@ sort: 2
 title: Rationalize The Number Of VUsers
 ---
 
-## How To Rationalize The Number Of Virtual Users On Each Worker
+# How To Rationalize The Number Of Virtual Users On Each Worker
 
-First the virtual users of each type will be evenly distributed across the Worker nodes. 
+First the virtual users of each type will be evenly distributed across the Worker nodes.
+
 The difference in the number of virtual users of each type on each Worker node will not be greater than one.
 
 <style>
-    img[alt=d000005001] { 
+    img[alt=pic00000004] { 
         display: block;
         width: 680px; 
     }
 </style>
-![d000005001](/assets/images/d000005001.png)
+![pic00000004](/assets/images/pic00000004.png)
 
 This has the advantage that the test cases executed and the system resources used by each Worker will be relatively similar, with low variance between Workers.
 

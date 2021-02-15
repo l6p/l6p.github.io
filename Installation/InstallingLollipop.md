@@ -16,7 +16,7 @@ kubectl create ns l6p-space
 
 ## Installing Lollipop
 
-Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the ```charts/lollipop``` directory.
+Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the `charts/lollipop` directory.
 Open and edit the **values.yaml** file and modify the configuration as required.
 
 | Parameter | Description | Default |

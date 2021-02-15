@@ -40,7 +40,7 @@ to check the version of the Helm.
 
 ## Installing MongoDB
 
-Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the ```utils/mongodb``` directory.
+Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the `utils/mongodb` directory.
 Please change the **values.yaml** file according to your requirements, and run the command:
 
 ```shell
@@ -52,7 +52,7 @@ helm install mongodb -n l6p-system -f ./values.yaml bitnami/mongodb
 
 Lollipop uses Kafka as a message queue to store the logs generated during testing.
 
-Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the ```utils/kafka``` directory.
+Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the `utils/kafka` directory.
 Please change the **values.yaml** file according to your requirements, and run the command:
 
 ```shell

@@ -9,7 +9,7 @@ title: Modifying Data
 For example, based on the following JSON data:
 
 ```go
-d:= json.D(`
+d := json.D(`
     {
         "key1": "value1",
         "key2": {

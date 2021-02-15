@@ -8,7 +8,7 @@ title: Filtering Elements In Array
 Based on the following JSON data:
 
 ```go
-d:= json.D(`
+d := json.D(`
     {
         "records": [
             {
@@ -24,7 +24,7 @@ d:= json.D(`
 `)
 ```
 
-If you want to find a record with key equal to "k2" and read the value of "value", you can do this:
+If you want to find a record with key equal to **"k2"** and read the value of **"value"**, you can do this:
 
 ```go
 d.Filter("records", func(data *json.Data) bool {

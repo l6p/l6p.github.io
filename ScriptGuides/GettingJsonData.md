@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 3
 title: Getting JSON Data
 ---
 
@@ -41,7 +41,7 @@ Call `client.R().Get(...)` to make a GET request, and the returned JSON data is:
 }
 ```
 
-You can use `resp.D()` to extract the content of JSON data in the test cae, for example, `GetInt(...)` for integers, `GetString(...)` for strings.
+You can use `resp.D()` to extract the content of JSON data in the test case, for example, `GetInt(...)` for integers, `GetString(...)` for strings.
 The parameter of a function like `GetInt` or `GetString` is a path to the value's key. 
 See [here](/Utilities/JsonUtility/SendingJsonRequest.html) for details on how to write the path.
 

@@ -115,12 +115,12 @@ Click "NEXT" and "RUN"
 While the test is running you can slide the mouse over the right side trigger points of the test to slide out the functional buttons.
 
 <style>
-    img[alt=d000002001] { 
+    img[alt=pic00000001] { 
         display: block;
         width: 280px; 
     }
 </style>
-![d000002001](/assets/images/d000002001.png)
+![pic00000001](/assets/images/pic00000001.png)
 
 Then click the Dashboard button to view the test report.
 Or even simpler, just click on the test item in the list to view the test report.

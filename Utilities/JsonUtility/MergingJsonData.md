@@ -8,14 +8,14 @@ title: Merging JSON Data
 For example, there are two sets of JSON data and they are encapsulated in `d1` and `d2` respectively:
 
 ```go
-d1:= json.D(`
+d1 := json.D(`
     {
         "key1": "value1",
         "key2": [10, 20]
     }
 `)
 
-d2:= json.D(`
+d2 := json.D(`
     {
         "key2": {
             "key21": 0
