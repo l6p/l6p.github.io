@@ -62,7 +62,7 @@ Waiting for a moment until script's status is ready.
 
 ## Create A Test Plan
 
-Choose "Plan" from the left menu and click "CREATE" button and fill in the form:
+Choose **Plan** from the left menu and click **CREATE** button and fill in the form:
 
 ```text
 | Item           | Value  |
@@ -72,7 +72,7 @@ Choose "Plan" from the left menu and click "CREATE" button and fill in the form:
 | Script Version | 0.1.0  |
 ```
 
-Click "NEXT" and continue to fill in the form:
+Click **NEXT** and continue to fill in the form:
 
 ```text
 | Item         | Value      |
@@ -84,11 +84,11 @@ Click "NEXT" and continue to fill in the form:
 | Case Weight  | 100%       |
 ```
 
-Click "DONE" and "SAVE"
+Click **DONE** and **SAVE**
 
 ## Run Test
 
-Choose "Test" from the left menu and click "CREATE" button and fill in the form:
+Choose **Test** from the left menu and click **CREATE** button and fill in the form:
 
 ```text
 | Item     | Value |
@@ -99,7 +99,7 @@ Choose "Test" from the left menu and click "CREATE" button and fill in the form:
 | Duration | 1m    |
 ```
 
-Click "NEXT" and continue to fill in the form:
+Click **NEXT** and continue to fill in the form:
 
 ```text
 | Item              | Value |
@@ -108,7 +108,7 @@ Click "NEXT" and continue to fill in the form:
 | VUsers per Worker | 1     |
 ```
 
-Click "NEXT" and "RUN"
+Click **NEXT** and **RUN**
 
 ## Check Report
 
@@ -122,5 +122,5 @@ While the test is running you can slide the mouse over the right side trigger po
 </style>
 ![pic00000001](/assets/images/pic00000001.png)
 
-Then click the Dashboard button to view the test report.
+Then click the **Dashboard** button to view the test report.
 Or even simpler, just click on the test item in the list to view the test report.
