@@ -10,7 +10,7 @@ So Lollipop is actually a framework by using K8s's resources to schedule and run
 some conveniences in order to fulfill different test purposes.
 
 The first step to create a script is to create a new, empty directory, e.g., script. 
-Run **"go mod init"** in that directory to make the directory as the root of a Go module.
+Run `go mod init` in that directory to make the directory as the root of a Go module.
 
 ```shell
 mkdir script

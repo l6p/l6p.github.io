@@ -42,8 +42,8 @@ func Export() map[string]interface{} {
 
 Add **SetUp** and **TearDown** functions to the test script, and passes the references to the framework via the **Export** function.
 
-```note
-Note that "setUp" and "tearDown" are reserved keywords for registering the SetUp and TearDown execution functions with the system.
+```tip
+**setUp** and **tearDown** are reserved keywords for registering the SetUp and TearDown functions with the framework.
 ```
 
 **SetUp** and **TearDown** will only be run once by a worker during the entire test, before the test starts and before it ends, respectively.

@@ -24,7 +24,7 @@ d := json.D(`
 `)
 ```
 
-If you want to find a record with key equal to **"k2"** and read the value of **"value"**, you can do this:
+If you want to find a record with key equal to `k2` and read the value of `value`, you can do this:
 
 ```go
 d.Filter("records", func(data *json.Data) bool {

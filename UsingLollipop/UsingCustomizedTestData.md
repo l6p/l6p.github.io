@@ -10,7 +10,7 @@ For more flexibility in running tests, the system allows custom data to be passe
 The first step is to define the fields in the **Context** where the data needs to be provided dynamically.
 You need to tag the custom fields, such as `l6p:"sleepSeconds"`.
 
-```note
+```tip
 Note that `l6p:"sync"` is reserved and cannot be used to pass data.
 ```
 

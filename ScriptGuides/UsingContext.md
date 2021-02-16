@@ -35,7 +35,7 @@ func Export() map[string]interface{} {
 
 ## Explanation
 
-Use Context to exchange data between test cases or use Context to pass the dynamic data needed for testing.
+Use context to exchange data between test cases or use context to pass the dynamic data needed for testing.
 
 First declare a structure to hold the data in the context. 
 For example, in the following example, a structure called `Context` is declared, 
