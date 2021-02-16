@@ -24,3 +24,5 @@ The execution of each virtual user is split into one or more sessions, and the f
 such as logging in and out of a website.
 
 At the end of the test, all user sessions are guaranteed to end, and then the test enters the **TearDown** phase, which is used to free up some resources needed for the test.
+
+Details on how **SetUp** and **TearDown** are used can be found by clicking [here](/ScriptGuides/SetUpAndTearDown.html).

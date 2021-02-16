@@ -19,4 +19,4 @@ Then click the **Check Logs** button to open the log view screen.
 The default is the master's log, you can select to view other workers' logs through the menu on top of the window.
 
 Customized information can also be exported to the log using JSON format in the test cases, 
-click [here](/ScriptGuides/GettingJsonData.html){:target="_blank"} to see more details.
+click [here](/ScriptGuides/GettingJsonData.html) to see more details.
