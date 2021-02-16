@@ -9,3 +9,8 @@ Using Lollipop, you'll be able to catch performance regression and problems earl
 - Powered by Kubernetes cloud platform.
 - Very user-friendly performance testing management interface.
 - Comprehensive data analysis reports.
+
+## Installation
+
+- [Prerequisite](/Installation/Prerequisite.html)
+- [Installing Lollipop](/Installation/InstallingLollipop.html)
