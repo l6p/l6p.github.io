@@ -4,4 +4,4 @@ sort: 1
 
 # Installation
 
-{% include list.liquid all=false %}
+{% include list.liquid all=true %}
