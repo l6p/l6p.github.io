@@ -5,17 +5,6 @@ title: Installing Lollipop
 
 # Installing Lollipop
 
-## Creating Namespaces
-
-Creates the K8s namespaces for the system and runtime components of Lollipop:
-
-```shell
-kubectl create ns l6p-system 
-kubectl create ns l6p-space
-```
-
-## Installing Lollipop
-
 Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the `charts/lollipop` directory.
 Open and edit the **values.yaml** file and modify the configuration as required.
 

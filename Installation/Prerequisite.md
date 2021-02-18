@@ -38,6 +38,15 @@ helm version --short
 
 to check the version of the Helm.
 
+## Creating Namespaces
+
+Creates the K8s namespaces for the system and runtime components of Lollipop:
+
+```shell
+kubectl create ns l6p-system 
+kubectl create ns l6p-space
+```
+
 ## Installing MongoDB
 
 Download or clone [this project](https://github.com/l6p/helm){:target="_blank"} and go to the `utils/mongodb` directory.
