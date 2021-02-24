@@ -5,40 +5,10 @@ title: Using Context
 
 # Using Context In Testing
 
-## Code example
-
-```go
-import (
-	"fmt"
-	"github.com/l6p/utils/client/json"
-	"time"
-)
-
-type Context struct {
-	BaseUrl string
-}
-
-func SimpleCase(ctx *Context, client *json.Client) {
-	_ = client.R().Get(fmt.Sprintf("%s/todos/1", ctx.BaseUrl))
-	time.Sleep(5 * time.Second)
-}
-
-func Export() map[string]interface{} {
-	return map[string]interface{}{
-		"context": Context{
-			BaseUrl: "https://jsonplaceholder.typicode.com",
-		},
-		"SimpleCase": SimpleCase,
-	}
-}
-```
-
-## Explanation
-
 Use context to exchange data between test cases or use context to pass the dynamic data needed for testing.
 
-First declare a structure to hold the data in the context. 
-For example, in the following example, a structure called `Context` is declared, 
+First declare a structure to hold the data in the context.
+For example, in the following example, a structure called `Context` is declared,
 and a field called `BaseUrl` is declared in it to store the base url of the back-end API.
 
 ```go
@@ -71,6 +41,34 @@ func SimpleCase(ctx *Context, client *json.Client) {
 
 In the above example the API base url will be taken from the `Context` instead of being hardcoded in the test case.
 
+## Code example
+
+```go
+import (
+	"fmt"
+	"github.com/l6p/utils/client/json"
+	"time"
+)
+
+type Context struct {
+	BaseUrl string
+}
+
+func SimpleCase(ctx *Context, client *json.Client) {
+	_ = client.R().Get(fmt.Sprintf("%s/todos/1", ctx.BaseUrl))
+	time.Sleep(5 * time.Second)
+}
+
+func Export() map[string]interface{} {
+	return map[string]interface{}{
+		"context": Context{
+			BaseUrl: "https://jsonplaceholder.typicode.com",
+		},
+		"SimpleCase": SimpleCase,
+	}
+}
+```
+
 ## Reference
 
-Click [here](){:target="_blank"} for the source code of this example.
+* [An example of a test script that uses Context](https://github.com/l6p/helm/tree/master/examples/simple-context){:target="_blank"}
