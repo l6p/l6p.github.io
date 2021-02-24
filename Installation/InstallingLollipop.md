@@ -46,47 +46,9 @@ kubectl get pods -n l6p-system --watch
 
 When all pods are running and ready it means that the system has installed successfully.
 
-## Configuring Lollipop
+## Login Lollipop
 
 Open the Chrome browser and access the home page of the Lollipop web console.
-For example, according to the default configuration, the home page address is "http://local.l6p.io".
+For example, according to the default configuration, the home page address is `http://local.l6p.io`.
 
-First, you will be prompted to enter the Activation Code.
-We provide you with a free Activation Code for up to **100 virtual users**, enough for general performance testing.
-If you need more virtual users, please email us at <l6p.io@hotmail.com>, and we will generate a new activation code for you.
-
-```text
------BEGIN ACTIVATION CODE-----
-eyJSIjoiZXlKTllYaFdWWE5sY25NaU9qRXdNSDA9IiwiUlNpZyI6Ik14Tm9wWXRF
-MW9CTGV1NXMyS29PbjJDUDhQeUNsWEUwOWNmNU9VMmV2RXp2WGlkN2c1WG01YTl2
-QmlQQi9ySGRxT1JHcUZDVCs0cmV5cll6YnJhZFJoLzFlS1RjYjhRc1ArbzZhcFF6
-K0NkRVpjTXplTitvK1N4RGQ5VU1LMG8xMW5oQVZ0NlVlM3JWemp2M1RXc3EwTThL
-SXprUWhPbk1zSERFS3lmQWF4dz0iLCJDUCI6Ii0tLS0tQkVHSU4gQ0VSVElGSUNB
-VEUtLS0tLVxuTUlJQjd6Q0NBVmlnQXdJQkFnSUJZekFOQmdrcWhraUc5dzBCQVFz
-RkFEQWtNUTh3RFFZRFZRUUtFd1pzTm5BdVxuYVc4eEVUQVBCZ05WQkFNVENHeHZi
-R3hwY0c5d01CNFhEVEl3TVRJeE5UQXdNREF3TUZvWERUTXdNVEl4TlRBd1xuTURB
-d01Gb3dKREVQTUEwR0ExVUVDaE1HYkRad0xtbHZNUkV3RHdZRFZRUURFd2hzYjJ4
-c2FYQnZjRENCbnpBTlxuQmdrcWhraUc5dzBCQVFFRkFBT0JqUUF3Z1lrQ2dZRUFt
-OXBqU0JwYVhRZlNjWERTWDd3d0VhOFJ6SjY1RVlVcVxuWWFpc0JUZ1dUK1hOTE4r
-RldtSmxFSUdLNkU1a05FVXRnU0dBR0JpVFlDYVVkck5xekpJelpmRTQ5TW0rcFp3
-TVxuQ3BaZHEwTisxdkhZeEYvZ3pYNkZ2cThQNlVQTVg2d3M5QU5LdFRpUkFEV0dq
-dWEwTVdjVWp5eFdnTk0wTkxvRlxud2xzd2RDa25zcEVDQXdFQUFhTXhNQzh3RGdZ
-RFZSMFBBUUgvQkFRREFnZUFNQjBHQTFVZEpRUVdNQlFHQ0NzR1xuQVFVRkJ3TUNC
-Z2dyQmdFRkJRY0RBVEFOQmdrcWhraUc5dzBCQVFzRkFBT0JnUUNrRVdjd2pQbVlB
-dWFjK0x4QVxuSXQ5bTQzWUJkTU5JdlQ2azhKL1RiQXBLajV1MWRPSWNCS2pSeFNt
-YjdsbXU0c0grSmFZdk0vUEtDcjFDc0pmNVxuWXBQZXNKcjdaVGlPVExqdXZmQVEw
-dkRtY0FUWkpWVnZyN0U2U2drNGk2U1VuVmZHYldLK21QYWhLUkVXdlpONlxuZ2l0
-ZUMxcmtPdXlxY1pHZFBlMVpHNGJJR1E9PVxuLS0tLS1FTkQgQ0VSVElGSUNBVEUt
-LS0tLVxuIn0=
------END ACTIVATION CODE-----
-```
-
-Next you will be asked to create an administrator account, after which you will be able to log in and use Lollipop.
-
-After entering the system, please first enter the **Settings** menu to make the necessary system settings.
-
-# Test Script Examples
-
-In the **examples** folder we provide examples of test scripts ranging from API tests to browser based end-to-end tests.
-
-We also provide two examples to demonstrate how to run and debug locally while creating the test cases.
+By default, the system will create an administrator account with the username `admin` and the password `password`.
