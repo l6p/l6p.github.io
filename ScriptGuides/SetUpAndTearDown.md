@@ -5,6 +5,14 @@ title: SetUp And TearDown
 
 # SetUp And TearDown
 
+Add **SetUp** and **TearDown** functions to the test script, and passes the references to the framework via the **Export** function.
+
+```tip
+**setUp** and **tearDown** are reserved keywords for registering the SetUp and TearDown functions with the framework.
+```
+
+**SetUp** and **TearDown** will only be run once by a worker during the entire test, before the test starts and before it ends, respectively.
+
 ## Code example
 
 ```go
@@ -38,12 +46,6 @@ func Export() map[string]interface{} {
 }
 ```
 
-## Explanation
+## Reference
 
-Add **SetUp** and **TearDown** functions to the test script, and passes the references to the framework via the **Export** function.
-
-```tip
-**setUp** and **tearDown** are reserved keywords for registering the SetUp and TearDown functions with the framework.
-```
-
-**SetUp** and **TearDown** will only be run once by a worker during the entire test, before the test starts and before it ends, respectively.
+* [An example of a test script with SetUp and TearDown](https://github.com/l6p/helm/tree/master/examples/setUp-and-tearDown){:target="_blank"}
