@@ -127,5 +127,5 @@ Or even simpler, just click on the test item in the list to view the test report
 
 ## Further Reading
 
-[Learn more about creating test scripts](/ScriptGuides)
-[Learn more about the test details](/TestingGuides)
+* [Learn more about creating test scripts](/ScriptGuides)
+* [Learn more about the test details](/TestingGuides)
