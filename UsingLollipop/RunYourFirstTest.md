@@ -124,3 +124,8 @@ While the test is running you can slide the mouse over the right side trigger po
 
 Then click the **Dashboard** button to view the test report.
 Or even simpler, just click on the test item in the list to view the test report.
+
+## Further Reading
+
+[Learn more about creating test scripts](/ScriptGuides)
+[Learn more about the test details](/TestingGuides)
