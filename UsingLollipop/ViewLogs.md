@@ -18,5 +18,6 @@ While the test is running you can slide the mouse over the right side trigger po
 Then click the **Check Logs** button to open the log view screen. 
 The default is the master's log, you can select to view other workers' logs through the menu on top of the window.
 
-Customized information can also be exported to the log using JSON format in the test cases, 
-click [here](/ScriptGuides/GettingJsonData.html) to see more details.
+## Reference
+
+* [Learn more about how to export custom information to the log](/ScriptGuides/GettingJsonData.html)
