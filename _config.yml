@@ -15,3 +15,6 @@ remote_theme: rundocs/jekyll-rtd-theme
 
 readme_index:
   with_frontmatter: true
+
+# Google Analytics
+google_analytics: G-M645ESKSD0
