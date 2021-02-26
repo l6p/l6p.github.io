@@ -16,10 +16,10 @@ The `R()` of `json.Client` is used to create a JSON request. Using the `Get(...)
 you can directly request a JSON API and use the `D()` to get the data you need in the response.
 
 The type of `D()` is `json.Data`, which provides some methods to easily handle JSON data:
-- [Reading data by path]()
-- [Filtering elements in array]()
-- [Modifying data]()
-- [Merging JSON data]()
+- [Reading data by path](/Utilities/JsonUtility/ReadingDataByPath.html)
+- [Filtering elements in array](/Utilities/JsonUtility/FilteringElementsInArray.html)
+- [Modifying data](/Utilities/JsonUtility/ModifyingData.html)
+- [Merging JSON data](/Utilities/JsonUtility/MergingJsonData.html)
 
 ## Posting JSON Data
 
