@@ -58,3 +58,4 @@ func Export() map[string]interface{} {
 ## Reference
 
 * [An example of a test script that uses Chrome](https://github.com/l6p/helm/tree/master/examples/using-chrome){:target="_blank"}
+* [An example of local debugging Chrome test script](https://github.com/l6p/helm/tree/master/examples/using-chrome-with-local-debug){:target="_blank"}

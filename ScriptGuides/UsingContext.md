@@ -72,3 +72,5 @@ func Export() map[string]interface{} {
 ## Reference
 
 * [An example of a test script that uses Context](https://github.com/l6p/helm/tree/master/examples/simple-context){:target="_blank"}
+* [An example of synchronizing Context data](https://github.com/l6p/helm/tree/master/examples/sync-context){:target="_blank"}
+* [An example of using Context to pass parameters](https://github.com/l6p/helm/tree/master/examples/context-parameter){:target="_blank"}

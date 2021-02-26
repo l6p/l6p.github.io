@@ -32,4 +32,5 @@ func Export() map[string]interface{} {
 
 ## Reference
 
-* [An example of a simple test script](https://github.com/l6p/helm/tree/master/examples/simple){:target="_blank"}
+* [An example of a simple test script](https://github.com/l6p/helm/tree/master/examples/getting-json-data){:target="_blank"}
+* [An example of local debugging test script](https://github.com/l6p/helm/tree/master/examples/getting-json-data-with-local-debug){:target="_blank"}
